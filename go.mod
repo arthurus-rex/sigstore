@@ -1,6 +1,8 @@
 module github.com/sigstore/sigstore
 
-go 1.24
+go 1.24.0
+
+toolchain go1.24.4
 
 require (
 	github.com/coreos/go-oidc/v3 v3.14.1
@@ -24,6 +26,7 @@ require (
 )
 
 require (
+	github.com/arthurus-rex/tob-mldsa v0.0.0-20250707131512-dbc526ad561b // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
